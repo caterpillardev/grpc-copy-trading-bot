@@ -55,12 +55,12 @@ To get started with the Solana Copy Trading Bot, you’ll need the following:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/rhettbu/solana-copy-trading-bot.git
+   git clone https://github.com/love-luca/solana-copy-trading-bot.git
    cd solana-copy-trading-bot
 
 
 # 👤 Developer
 ### Telegram: [rhettjel](https://t.me/rhettjel)   
 
-### Twitter: [DeFiMaxi](https://x.com/defai_maxi)   
+### Twitter:  [DeFiMaxi](https://x.com/defai_maxi)   
 
