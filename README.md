@@ -51,13 +51,9 @@ To get started with the Solana Copy Trading Bot, you’ll need the following:
 - **A Solana Wallet**: To connect your wallet and perform trades.
 - **Bot API Keys**: Obtain API keys from **Raydium**, **Jupiter**, **Pumpfun**, **Meteora**, and **Orca** to enable trading on those platforms.
 
-### Steps to Set Up
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/love-luca/solana-copy-trading-bot.git
-   cd solana-copy-trading-bot
-
+### contact
+-[Telegram](https://t.me/defai_maxi)
+-[Twitter](https://x.com/defai_maxi)
 
 # 👤 Developer
 ### Telegram: [rhettjel](https://t.me/rhettjel)   
