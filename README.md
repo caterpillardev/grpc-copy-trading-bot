@@ -53,7 +53,7 @@ To get started with the Solana Copy Trading Bot, you’ll need the following:
 
 
 # 👤 Developer
-### [Telegram](https://t.me/oxzepdev)   
+### [Telegram](https://t.me/caterpillardev)   
 
-### [Twitter](https://x.com/0xzepdev)   
+### [Twitter](https://x.com/caterpillardev)   
 
