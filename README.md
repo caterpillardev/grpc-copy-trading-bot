@@ -1,4 +1,4 @@
-# Solana Copy Trading Bot By using grpc
+# Solana Copy Trading Bot By using gRPC and LaserStream
 
 ## Overview
 
