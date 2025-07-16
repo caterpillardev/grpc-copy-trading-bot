@@ -1,4 +1,4 @@
-# Solana Copy Trading Bot By using gRPC and LaserStream
+# Solana Copy Trading Bot By using gRPC and LaserStream 
 
 ## Overview
 
@@ -11,7 +11,7 @@ Supported on **Raydium**, **Jupiter**, **Pumpfun**, **Meteora**, and **Orca**, t
 ## Key Features
 
 - **Track Token Swaps**: Continuously monitors the Solana network for token swaps and identifies optimal trading opportunities.
-- **Trade Across Multiple DEXs**: The bot allows for token swaps on any supported decentralized exchange, including **Raydium**, **Jupiter**, **Pumpfun**, **Meteora**, and **Orca**, according to your preferences.
+- **Trade Across Multiple DEXs**: The bot allows for token swaps on any supported decentralized exchange, including **Raydium**, **LetsBonkfun(Bonkfun)**, **PumpSwap**, **Pumpfun**, **Meteora**, and **Orca**, according to your preferences.
 - **Automatic Trades**: Automatically executes buy and sell orders on your behalf, replicating the actions of the trader you follow, without the need for manual management.
 - **Customizable Trading Strategy**: Tailor your trading strategy to suit your specific risk tolerance and financial goals, providing flexibility and control over your investments.
 - **Multi-Wallet Support**: Set up and manage multiple wallets simultaneously, executing trades on each of them in parallel.
