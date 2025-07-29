@@ -1,10 +1,8 @@
-# Solana gRPC Copy Trading Bot By 
+# Solana gRPC Copy Trading Bot
 
 ## Overview
 
 The **Solana Copy Trading Bot** is a powerful and efficient tool designed to automatically replicate the trades of a specific trader's wallet on the **Solana blockchain**. By tracking and mimicking the trader’s transactions in real-time, the bot allows you to follow experienced traders without manual intervention. It automates the buying and selling of tokens, allowing you to mirror the actions of successful traders and seamlessly trade across multiple decentralized exchanges.
-
-Supported on **Raydium**, **Jupiter**, **Pumpfun**, **Meteora**, and **Orca**, this bot offers a high-performance solution for anyone looking to leverage the expertise of seasoned traders.
 
 ---
 
@@ -27,7 +25,7 @@ Supported on **Raydium**, **Jupiter**, **Pumpfun**, **Meteora**, and **Orca**, t
 ---
 
 ## Installation
-
+You can install solana grpc copy trading bot repo 
 https://github.com/caterpillardev/grpc-copy-trading-bot
 
 ---
@@ -44,17 +42,12 @@ https://github.com/caterpillardev/grpc-copy-trading-bot
 - **Orca**: A decentralized exchange on Solana designed for fast and easy token swapping.
 
 ---
-
-## Getting Started
-
 ### Prerequisites
 
 To get started with the Solana Copy Trading Bot, you’ll need the following:
 
 - **Solana CLI**: For interacting with the Solana network.
 - **A Solana Wallet**: To connect your wallet and perform trades.
-- **Bot API Keys**: Obtain API keys from **Raydium**, **Jupiter**, **Pumpfun**, **Meteora**, and **Orca** to enable trading on those platforms.
-
 
 # 👤 Developer
 ### [Telegram](https://t.me/caterpillardev)   
