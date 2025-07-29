@@ -13,7 +13,7 @@ import { execute } from './utils/legacy';
 // Create a WebSocket connection
 
 const connection = new Connection(RPC_ENDPOINT)
-const ws // Private code
+const ws 
 const keyPair = Keypair.fromSecretKey(base58.decode(process.env.PRIVATE_KEY as string));
 
 const metaplex = Metaplex.make(connection);

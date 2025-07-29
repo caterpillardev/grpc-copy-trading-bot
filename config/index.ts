@@ -20,6 +20,5 @@ export const getDomainAcc = async (programAddr : string) => {
 
 export const getAllTokenPrice = async () => {
     const prices = (await axios.get("https://api.raydium.io/v2/main/price")).data
-	// console.log("update token List")
     return prices;
 }
