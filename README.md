@@ -1,56 +1,66 @@
 # Solana gRPC Copy Trading Bot
 
-## Overview
-
-The **Solana Copy Trading Bot** is a powerful and efficient tool designed to automatically replicate the trades of a specific trader's wallet on the **Solana blockchain**. By tracking and mimicking the trader’s transactions in real-time, the bot allows you to follow experienced traders without manual intervention. It automates the buying and selling of tokens, allowing you to mirror the actions of successful traders and seamlessly trade across multiple decentralized exchanges.
+A high-performance **copy trading bot** for the **Solana blockchain** using the gRPC streaming API. This open-source sniper bot is optimized for **real-time trading** on platforms like **Bonk.fun**, **Pump.fun**, and **Raydium**. Built with TypeScript, it enables **low-latency MEV**, copy-trade, sandwich attacks, and sniper strategies.
 
 ---
 
 ## Key Features
-- Real-time gRPC trading
-- MEV & sandwitch trading modules
-- Copy-trade sniper mode for Bonk.fun and Pump.fun
-- Solana ShredStream and Laserstream integration
-- Multi wallet supports.
 
----
-
-## How It Works
-
-1. **Connect to the Trader’s Wallet**: The bot listens for transactions from a selected trader's wallet and monitors their actions on the Solana blockchain.
-2. **Track and Replicate Trades**: Once the trader makes a trade (buying or selling a token), the bot mirrors the exact same transaction in your wallet, ensuring you're always in sync with their actions.
-3. **Automatic Execution**: The bot handles the execution of trades, meaning you don't need to constantly monitor the market. You can fully automate your trading based on your chosen trader’s activity.
-4. **Custom Strategy**: Customize your copy trading experience by setting your desired risk level, token preferences, and execution strategies.
+- **Real-Time Trading via gRPC** — Listen to Solana transactions live with blazing speed.
+- **Copy-Trading Mode** — Automatically mirror trades from wallet addresses.
+- **Sniper Mode** — Snipe token launches on Bonk.fun and Pump.fun.
+- **MEV & Sandwich Trading** — Use price prediction to front-run or back-run DEX orders.
+- **Multi-Wallet Bundler** — Execute atomic trades across several wallets simultaneously.
+- **Raydium + Jupiter Integration** — Get best routing and liquidity.
 
 ---
 
 ## Installation
-You can install solana grpc copy trading bot repo 
-https://github.com/caterpillardev/grpc-copy-trading-bot
 
----
-## Technologies Used
+```bash
+git clone https://github.com/caterpillardev/grpc-copy-trading-bot.git
+cd grpc-copy-trading-bot
+npm install
 
-- **Solana**: High-performance blockchain platform for decentralized applications and token transactions.
-- **Rust**: Smart contract programming language for building secure and high-performance applications on Solana.
-- **Anchor**: Framework for building Solana smart contracts, enabling better security and ensuring best practices.
-- **Solana Web3.js**: JavaScript library for interacting with the Solana blockchain from a front-end application.
-- **Raydium**: A Solana-based DEX for token swaps.
-- **Jupiter**: A Solana-based DEX aggregator that optimizes trade routes across the Solana ecosystem.
-- **Pumpfun**: A Solana-based DEX for token transactions.
-- **Meteora**: A decentralized exchange on Solana that supports token swaps and liquidity provision.
-- **Orca**: A decentralized exchange on Solana designed for fast and easy token swapping.
+```
+## Configuration
+PRIVATE_KEYS=         # Array of private keys
+TARGET_WALLETS=       # Wallets to copy trades from
+RPC_ENDPOINT=         # Solana RPC endpoint
+SLIPPAGE_BPS=         # Slippage in basis points
+MODE="copy"           # Options: bot mode in copy
 
----
-### Prerequisites
+## Usage
 
-To get started with the Solana Copy Trading Bot, you’ll need the following:
+yarn start
 
-- **Solana CLI**: For interacting with the Solana network.
-- **A Solana Wallet**: To connect your wallet and perform trades.
+## Use Cases
 
-# 👤 Developer
-### [Telegram](https://t.me/caterpillardev)   
+ - Copy Trading                             
+ - Token Launch Sniping (Bonk.fun, Pump.fun) 
+ - MEV & Sandwich                           
+ - Arbitrage    
 
-### [Twitter](https://x.com/caterpillardev)   
+## How It works
+- Uses Solana's gRPC ShredStream and Laserstream for ultra-fast mempool access
+- Filters for high-volume or target-wallet transactions
+- Calculates slippage and trade impact
+- Routes traes via Jupiter or Raydium DEX
 
+## Tech Stack
+- Typescript                         
+- gRPC & Protobuf
+- Solana Web3.js
+- Raydium SDK
+- Jito
+- dotenv
+## Future Features
+- Telegram Alerts
+- Web Dashboard
+- Wallet rotation
+- MEV profit optimizer
+- Token honeypot detection
+## Contact & Support
+- Twitter: @caterpillardev
+- Telegram: @caterpillardev
+- Emai: yabidev@gmail.com
