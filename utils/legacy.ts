@@ -13,7 +13,7 @@ export const execute = async (transaction: VersionedTransaction, latestBlockhash
   })
 
   const signature = await solanaConnection.sendRawTransaction(transaction.serialize(), { skipPreflight: true })
-  console.log("🚀 ~ execute ~ signature:", `https://solscan.io/tx/${signature}`)
+  console.log("🚀 - execute - signature:", `https://solscan.io/tx/${signature}`)
   const confirmation = await solanaConnection.confirmTransaction(
     {
       signature,
@@ -21,16 +21,16 @@ export const execute = async (transaction: VersionedTransaction, latestBlockhash
       blockhash: latestBlockhash.blockhash,
     }
   );
-  console.log("🚀 ~ execute ~ confirmation:", confirmation)
+  console.log("🚀  execute - confirmation:", confirmation)
 
   if (confirmation.value.err) {
     console.log("Confrimtaion error")
     return ""
   } else {
     if (isBuy)
-      console.log(`Success in buy transaction: https://solscan.io/tx/${signature}`)
+      console.log(`Success buy transaction: https://solscan.io/tx/${signature}`)
     else
-      console.log(`Success in Sell transaction: https://solscan.io/tx/${signature}`)
+      console.log(`Success Sell transaction: https://solscan.io/tx/${signature}`)
   }
   return signature
 }

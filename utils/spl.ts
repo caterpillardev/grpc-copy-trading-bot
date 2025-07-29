@@ -10,12 +10,12 @@ export async function getAtaList(connection: Connection, pubkey: string) {
     
     const filters: GetProgramAccountsFilter[] = [
         {
-            dataSize: 165,    //size of account (bytes)
+            dataSize: 165,    
         },
         {
             memcmp: {
-                offset: 32,     //location of our query in the account (bytes)
-                bytes: pubkey,  //our search criteria, a base58 encoded string
+                offset: 32,     
+                bytes: pubkey,  
             },
         }];
 
