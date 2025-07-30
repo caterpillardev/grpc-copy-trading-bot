@@ -1,6 +1,6 @@
 # Solana gRPC Copy Trading Bot
 
-A high-performance **copy trading bot** for the **Solana blockchain** using the gRPC streaming API. This open-source sniper bot is optimized for **real-time trading** on platforms like **Bonk.fun**, **Pump.fun**, and **Raydium**. Built with TypeScript, it enables **low-latency MEV**, copy-trade, sandwich attacks, and sniper strategies.
+A high-performance **copy trading bot** for the **Solana blockchain** using the gRPC streaming API. This open-source sniper bot is optimized for **real-time trading** on platforms like **Bonkfun**, **Pumpfun**, and **Raydium**. Built with TypeScript, it enables **low-latency MEV**, copy-trade, sandwich attacks, and sniper strategies.
 
 ---
 
