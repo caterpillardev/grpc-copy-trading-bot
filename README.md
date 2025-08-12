@@ -61,6 +61,6 @@ yarn start
 - MEV profit optimizer
 - Token honeypot detection
 ## Contact & Support
-- Twitter: @caterpillardev
-- Telegram: @caterpillardev
+- Twitter: @roswellyy
+- Telegram: @roswellyy
 - Emai: yabidev@gmail.com
